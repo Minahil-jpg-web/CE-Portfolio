@@ -138,3 +138,62 @@ footer{
     background:#111827;
     margin-top:50px;
 }
+
+
+/* Mobile Responsive */
+
+@media screen and (max-width: 768px) {
+
+    nav{
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    nav ul{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    nav ul li{
+        margin: 10px 0;
+    }
+
+    .logo{
+        font-size: 24px;
+    }
+
+    .hero{
+        padding: 40px 15px;
+    }
+
+    .hero h1,
+    .hero h2{
+        font-size: 32px;
+    }
+
+    .hero p{
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .hero img{
+        width: 90%;
+    }
+
+    button{
+        width: 100%;
+        max-width: 250px;
+        font-size: 18px;
+    }
+
+    .container{
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+    }
+
+    .card{
+        width: 90%;
+    }
+}
